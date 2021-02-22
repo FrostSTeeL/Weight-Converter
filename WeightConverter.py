@@ -9,9 +9,9 @@ unit = input("Is it (K)g or (L)bs?: ")
 
 #Computation
 if unit.upper() == "L":
-    message = ("Your weight is: " + (str(weight / 2.205)[0:4]) + " Kg")
+    message = ("Your weight is: " + (str(weight / 2.205)[0:5]) + " Kg")
 elif unit.upper() == "K":
-    message = ("Your weight is: " + (str(weight * 2.205)[0:4]) + " Lbs")
+    message = ("Your weight is: " + (str(weight * 2.205)[0:5]) + " Lbs")
 
 print(message)
 
